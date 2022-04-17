@@ -1,0 +1,99 @@
+.imgProduct{
+    position: relative;
+    top: 20%;
+    max-height: 90px;
+     border-radius: 20%;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 4px 4px 2px #aaaaaa;
+  }
+  @media only screen and (max-width: 575px) {
+    .imgProduct{
+      max-height: 110px;
+      padding: 5px;
+    }
+  }
+  
+  .ProductName{
+      padding-top: 10px;
+      font-weight: bold;
+      text-align: justify;
+      
+  }
+  .ProductCode{
+      font-size: 14px;
+      text-align: justify;
+    padding: 0%;
+  }
+  @media only screen and (max-width: 775px) {
+    .ProductName{
+      text-align: center;
+
+    }
+    .ProductCode{
+      text-align: center;
+
+    }
+  }
+  .btnDisable{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+    opacity: 0.5;
+  }
+  .btn1{
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;
+    font-size: 12px;
+  }
+  .btn2{
+    border:0px;
+    background-color: transparent;
+    color: orange;
+    font-size: 16px;
+  }
+  .Total{
+     font-weight: bold;
+    text-align: justify;
+    color: orange;
+    font-size: 26px;
+    line-height: 0.1;
+    padding-left: 10px;
+
+    
+}
+.TotalOld{
+   line-height: 0.1;
+   padding-top: 5px;
+}
+.warning{
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 5%;
+}
+.warning:hover{
+  background-color: white;
+  color: orange;
+   
+}
+.warningOut{
+
+  background-color: white;
+  color: orange;
+  font-weight: bold;
+  border-radius: 5%;
+}
+.warningOut:hover{
+  background-color: orange;
+  color: white;
+  box-shadow: 4px 2px 2px gray;
+   
+}
+.inpt{
+  border: 0px;
+  text-align: center;
+  width: 20px;
+}

@@ -1,0 +1,81 @@
+.navbarMain{
+  border: 1px solid #BFBFBF;
+  background-color: white;
+  box-shadow: 2px 2px 2px #aaaaaa;
+}
+.ulNavTop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(240 240 240)
+  }
+  
+   
+  
+  .NavToplia {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+    position: relative;
+    right: 25%;
+  }
+  
+  .NavTopliaSpan{
+      color: orange;
+  }
+  .nav-link {
+      color: black;
+  }
+  .NavtopiaImg{
+    
+    position: absolute;
+    left: 4%;
+    max-height: 50px;
+    bottom: 20%;
+   
+  }
+  @media only screen and (min-width: 992px) {
+    .nav-link:hover {
+      color: orange;
+  
+    }
+    .NavToplia:hover {
+        color: black;
+    
+      } 
+      .navbar-left{
+        position: absolute;
+        right: 100px;
+      }
+    
+      .NavtopiaImg{
+    
+        position: absolute;
+        left: 20%;
+        max-height: 70px;
+        bottom: 20%;
+
+       
+      }
+  
+  }
+  .navbar-toggler{
+    position: fixed;
+    top: 26px;
+    right: 10px;
+  }
+  @media only screen and (max-width: 991px) {
+    .navbar-collapse {
+      
+     margin-top: 80px;
+    }
+  }
+  .imgFlag{
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+  }
+ 
